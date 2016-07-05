@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.zzz.spring/schema/user"
+	xmlns:tns="http://www.zzz.spring/schema/user" 
+	elementFormDefault="qualified">
+	<element name="user">
+		<complexType>
+			<attribute name="id"></attribute>
+			<attribute name="userName"></attribute>
+			<attribute name="email"></attribute>
+		</complexType>
+	</element>
+</schema>
