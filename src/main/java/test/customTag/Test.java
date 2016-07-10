@@ -7,7 +7,7 @@ import test.TestService;
 
 public class Test {
 	public static void main(String[] args) {
-		BeanFactory beanFactory = new FileSystemXmlApplicationContext("application.xml");
-		System.out.println(beanFactory.getBean(User.class).getUserName());
+		BeanFactory beanFactory = new FileSystemXmlApplicationContext("F:\\workspaces\\java2\\customTag\\application.xml");
+		beanFactory.getBean(UserService.class).test();
 	}
 }

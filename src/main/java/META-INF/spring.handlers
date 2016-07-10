@@ -1,1 +1,5 @@
 http\://www.zzz.spring/schema/user=handler.MyNameSpaceHandler
+http\://www.zzz.spring/schema/user1=handler.MyNameSpaceHandler
+http\://www.zzz.spring/schema/user2=handler.MyNameSpaceHandler
+http\://www.zzz.spring/schema/user3=handler.MyNameSpaceHandler
+http\://www.zzz.spring/schema/user4=handler.MyNameSpaceHandler

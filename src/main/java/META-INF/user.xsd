@@ -6,8 +6,7 @@
 	<element name="user">
 		<complexType>
 			<attribute name="id"></attribute>
-			<attribute name="userName"></attribute>
-			<attribute name="email"></attribute>
+			<attribute name="class"></attribute>
 		</complexType>
 	</element>
 </schema>
