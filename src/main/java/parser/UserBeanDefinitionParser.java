@@ -15,7 +15,7 @@ public class UserBeanDefinitionParser implements BeanDefinitionParser {
 
 	public BeanDefinition parse(Element element, ParserContext parserContext) {
 		BeanDefinition definition = new GenericBeanDefinition();
-		definition.setBeanClassName("factoryBean.UserFactoryBean");
+		definition.setBeanClassName("factoryBean.RemoteFactoryBean");
 		String className = element.getAttribute("class");
 		System.out.println(className);
 		definition.getPropertyValues().add("className",className );
