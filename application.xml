@@ -8,5 +8,5 @@
             http://www.zzz.spring/schema/user
           	http://www.zzz.spring/schema/user.xsd">
 
-	<mu:user id="testUser" userName="aaa" email="bbb"></mu:user>
+	<mu:user id="testUser" class = "test.customTag.UserService"></mu:user>
 </beans>
